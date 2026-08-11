@@ -1,0 +1,21 @@
+# Third-party benchmarks (ISPD 2005 / MMS) - download separately, see README
+benchmarks/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Runtime caches (set in train.py / test.py)
+.cache/
+.config/
+dataset/cache/
+
+# Experiment outputs
+result/
+results/
+sample/
+sample_v2/
+wandb/
+*.gif
+*.png
